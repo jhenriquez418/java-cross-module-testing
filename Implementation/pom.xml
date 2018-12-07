@@ -51,7 +51,6 @@
                 </executions>
             </plugin> 
         </plugins>
-        <finalName>com.example.implementation</finalName>
         
     </build>
 </project>
