@@ -9,4 +9,51 @@
                 <goal>test</goal>
             </goals>
         </action>
+        <action>
+            <actionName>CUSTOM-Build</actionName>
+            <displayName>Build</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Test w/ Full Stack Trace</actionName>
+            <displayName>Test w/ Full Stack Trace</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>compile</goal>
+                <goal>-e</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Build w/ Full Stack Trace</actionName>
+            <displayName>Build w/ Full Stack Trace</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>package</goal>
+                <goal>-e</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Build w/ Full Stack Trace and Debug</actionName>
+            <displayName>Build w/ Full Stack Trace and Debug</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>package</goal>
+                <goal>-e</goal>
+                <goal>-X</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Test w/ Stack Trace and Debug</actionName>
+            <displayName>Test w/ Stack Trace and Debug</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>validate</goal>
+                <goal>test</goal>
+                <goal>-e</goal>
+                <goal>-X</goal>
+            </goals>
+        </action>
     </actions>

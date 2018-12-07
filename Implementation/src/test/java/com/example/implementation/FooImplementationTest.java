@@ -5,7 +5,7 @@
  */
 package com.example.implementation;
 
-import com.example.declaration.AbstractFooTest;
+import com.example.declaration.test.AbstractFooTest;
 import com.example.declaration.Foo;
 import org.junit.Test;
 import static org.junit.Assert.*;
