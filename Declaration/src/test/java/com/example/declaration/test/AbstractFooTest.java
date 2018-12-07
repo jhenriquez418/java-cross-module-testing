@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.declaration;
+package com.example.declaration.test;
 
+import com.example.declaration.Foo;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
